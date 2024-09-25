@@ -9,7 +9,19 @@ body{
 a{
     text-decoration: none;
     background-color: white;
+    display: inline-block;
+    margin: 0.5rem 0.25rem;
     padding: 0.5rem;
     border-radius: 0.5rem;
     box-shadow: 1rem 1rem 1rem #00000088
+}
+a:hover{
+    background-color: goldenrod;
+    box-shadow: 0.5rem 0.5rem 0.5rem #00000088
+
+}
+.fun{
+    width: 100%;
+    border-radius: 3rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem #00000088;
 }
